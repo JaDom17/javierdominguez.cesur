@@ -1,0 +1,58 @@
+body{
+    background-color: wheat;
+}
+
+
+.div1{
+    width: 1100px;
+    height: 550px;
+    background-color: blue;
+    margin: 4%;
+}
+
+.div2{
+    background-color: green;
+    float: left;
+    width: 35%;
+    height: 200px;
+    margin: 0 25px 50px 50px;
+}
+
+.div3{
+    background-color: yellow;
+    float: right;
+    width: 50%;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.div4{
+    clear: left;
+    background-color: red;
+    
+
+    width: 35%;
+    height: 200px;
+    margin: 0 25px 50px 50px;
+
+}
+
+.ParrafoDiv{
+    font-size: 2em;
+    color: white;
+}
+
+.ParrafoDivCen{
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 20%;
+    color: white;
+}
+.ParrafoDivCenGra{
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 35%;
+    color: white; 
+}
