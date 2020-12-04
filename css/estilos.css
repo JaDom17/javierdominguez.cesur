@@ -33,7 +33,7 @@ header .menu {
 }
 
 header .menu img{
-  /* float: left; */
+  
   margin-right: 30%;
   display: none;
   
@@ -174,6 +174,10 @@ header .contenedor-texto .texto .profesion {
   color: #636363;
 }
 
+
+
+
+
 /* ----- ----- FOOTER ----- ----- */
 .contacto {
   padding: 60px 0;
@@ -219,29 +223,29 @@ header .contenedor-texto .texto .profesion {
 }
 .contacto .formulario .boton {
   margin: auto;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
-  background: #aebcbf; /* Old browsers */
+
+  background: #aebcbf; 
   background: -moz-linear-gradient(
     top,
     #aebcbf 0%,
     #6e7774 50%,
     #0a0e0a 51%,
     #0a0809 100%
-  ); /* FF3.6-15 */
+  );
   background: -webkit-linear-gradient(
     top,
     #aebcbf 0%,
     #6e7774 50%,
     #0a0e0a 51%,
     #0a0809 100%
-  ); /* Chrome10-25,Safari5.1-6 */
+  ); 
   background: linear-gradient(
     to bottom,
     #aebcbf 0%,
     #6e7774 50%,
     #0a0e0a 51%,
     #0a0809 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  ); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
 
   color: #fff;
@@ -313,4 +317,4 @@ footer .redes-sociales .contenedor .instagram:hover {
   }
 }
 
-/*# sourceMappingURL=estilos.css.map */
+

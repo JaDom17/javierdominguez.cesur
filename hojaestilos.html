@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Javier Dominguez Desarrollador Web</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/menu-lateral.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="mmed/favicon-32x32.png"
+    />
+    <script type="text/javascript">
+      function popUp(URL) {
+        window.open(
+          URL,
+          "Nombre de la ventana",
+          "toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=300,height=200,left = 390,top = 50"
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <nav class="menu">
+          <img
+            src="mmed/JDDlogo.png"
+            alt="JDDiseños"
+            width="60px"
+            height="60px"
+          />
+          <a href="index.html">Sobre mí</a>
+          <a href="trabajos.html">Trabajos</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="contacto.html">Hoja de Estilos</a>
+          <a href="perfil.html">Perfil</a>
+        </nav>
+
+        <div class="contenedor-texto">
+          <div class="texto">
+            <h1 class="nombre">JAVIER DOMINGUEZ</h1>
+            <h2 class="profesion">Desarrollador Web</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main">
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa fa-home fa-2x"></i>
+              <span class="nav-text">
+                Sobre<br />
+                mí
+              </span>
+            </a>
+          </li>
+          <li class="has-subnav">
+            <a href="contacto.html">
+              <i class="fa fa-laptop fa-2x"></i>
+              <span class="nav-text"> Contacto </span>
+            </a>
+          </li>
+          <li class="has-subnav">
+            <a href="trabajos.html">
+              <i class="fa fa-list fa-2x"></i>
+              <span class="nav-text"> Trabajos </span>
+            </a>
+          </li>
+          <li class="has-subnav">
+            <a href="hojaestilos.html">
+              <i class="fa fa-folder-open fa-2x"></i>
+              <span class="nav-text"> Hoja de Estilos </span>
+            </a>
+          </li>
+          <li>
+            <a href="perfil.html">
+              <i class="fa fa-bar-chart-o fa-2x"></i>
+              <span class="nav-text"> Perfil </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="acerca-de">
+        <div class="contenedor">
+          
+
+          <div class="texto">
+            <h3 class="titulo">Estilos</h3>
+            <p>
+              * <br /><br />{ margin: 0; padding: 0; -webkit-box-sizing:
+              border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+              <br /><br />
+
+              body { background: #f2f2f2; font-family: "Open Sans"; font-size:
+              16px; }
+              <br /><br />
+              .contenedor { width: 90%; max-width: 1000px; margin: auto;
+              overflow: hidden; }
+              <br /><br />
+
+              header { background: url("../mmedia/bg2.jpg"), #1c1c1c;
+              background-size: cover; background-repeat: no-repeat;
+              background-position: center; max-height: 600px; }
+              <br /><br />
+              header .menu { margin: 40px 0; text-align: right; }
+              <br /><br />
+              header .menu img{ margin-right: 30%; display: none; }
+              <br /><br />
+              header .menu a { margin: 0 20px; color: #f2f2f2; padding-bottom:
+              9px; font-size: 1em; display: inline-block; text-decoration: none;
+              border-bottom: 2px solid transparent; }
+              <br /><br />
+              header .menu a:hover { border-bottom: 2px solid #fff; }
+              <br /><br />
+              header .contenedor-texto { display: flex; justify-content: center;
+              align-content: center; margin: 190px 0; }
+              <br /><br />
+              header .contenedor-texto .texto { border: 2px solid rgba(255, 255,
+              255, 0.5); font-family: "Montserrat", sans-serif; border-radius:
+              3px; display: inline-block; text-align: center; padding: 20px
+              60px; }
+              <br /><br />
+              header .contenedor-texto .texto h1, header .contenedor-texto
+              .texto h2 { color: #fff; font-weight: 300; margin: 0; }
+              <br /><br />
+              header .contenedor-texto .texto:hover { border: 2px solid
+              rgba(255, 255, 255, 0.5); border-radius: 15px; color: #0a0809; }
+              <br /><br />
+              header .contenedor-texto .texto .nombre<br />
+              { margin-bottom: 10px; font-size: 50px; line-height: 50px; }
+              <br /><br />
+              header .contenedor-texto .texto .profesion { font-size: 25px;
+              line-height: 25px; }
+              <br /><br />
+
+              .main .contenedor { overflow: visible; } .main .acerca-de {
+              text-align: center; }
+              <br /><br />
+              .main .acerca-de .foto { margin-top: -60px; }
+              <br /><br />
+              .main .acerca-de .foto img { border-radius: 50%; vertical-align:
+              top; border: 5px solid rgba(255, 255, 255, 0.2); }
+              <br /><br />
+              .main .acerca-de .texto { color: #5a5a5a; font-weight: 600;
+              font-size: 1em; line-height: 30px; width: 80%; margin: 40px auto
+              60px auto; }
+              <br /><br />
+              .main .acerca-de .texto .titulo { font-size: 34px; margin-bottom:
+              40px; line-height: 34px; font-weight: 300; color: #1c1c1c;
+              text-align: center; }
+              <br /><br />
+              .main .acerca-de .texto .titulo:hover { color: #868a08; }
+              <br /><br />
+              .main .acerca-de .texto .bold { color: #3895ea; text-decoration:
+              underline; }
+              <br /><br />
+              .main .trabajos { background: #f2f2f2; padding: 60px 0; }
+              <br /><br />
+              .main .trabajos .contenedor { overflow: hidden; }
+              <br /><br />
+              .main .trabajos .titulo { font-size: 34px; line-height: 34px;
+              margin-bottom: 60px; font-weight: 300; color: #323068; text-align:
+              center; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos { display: flex;
+              flex-direction: rows; flex-wrap: wrap; justify-content:
+              space-between; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo { width: 33%;
+              margin-bottom: 40px; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo .thumb { width:
+              100%; margin-bottom: 10px; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo .thumb img {
+              vertical-align: top; width: 100%; border-radius: 3px; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo .descripcion {
+              text-align: center; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo .descripcion
+              .nombre<br />
+              { font-weight: 700; color: #3895ea; margin-bottom: 10px; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo .descripcion
+              .categoria { font-size: 14px; color: #636363; }
+              <br /><br />
+
+              .contacto { padding: 60px 0; }
+              <br /><br />
+              .contacto .titulo { font-size: 34px; line-height: 34px;
+              margin-bottom: 60px; font-weight: 300; color: #1c1c1c; text-align:
+              center; }
+              <br /><br />
+              .contacto .titulo:hover { color: #868a08; }
+              <br /><br />
+              .contacto .formulario { display: flex; flex-wrap: wrap;
+              justify-content: space-between; }
+              <br /><br />
+              .contacto .formulario input[type="text"], .contacto .formulario
+              input[type="email"], .contacto .formulario textarea { border: 2px
+              solid #cecece; border-radius: 5px; padding: 15px 20px; font-size:
+              20px; color: #a4a4a4; }
+              <br /><br />
+              .contacto .formulario input[type="text"], .contacto .formulario
+              input[type="email"] { width: 49%; margin-bottom: 15px; }
+              <br /><br />
+              .contacto .formulario textarea { width: 100%; height: 100px;
+              min-width: 100%; margin-bottom: 15px; min-height: 100px;
+              max-height: 300px; }
+              <br /><br />
+              .contacto .formulario .boton { margin: auto; background: #aebcbf;
+              background: -moz-linear-gradient( top, #aebcbf 0%, #6e7774 50%,
+              #0a0e0a 51%, #0a0809 100% ); background: -webkit-linear-gradient(
+              top, #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100% );
+              background: linear-gradient( to bottom, #aebcbf 0%, #6e7774 50%,
+              #0a0e0a 51%, #0a0809 100% ); filter:
+              progid:DXImageTransform.Microsoft.gradient(
+              startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 );
+              /* IE6-9 */ color: #fff; border: none; border-radius: 3px;
+              padding: 15px 40px; }
+              <br /><br />
+              .contacto .formulario .boton:hover { background: #1c1c1c; color:
+              gold; }
+              <br /><br />
+              footer .redes-sociales { background: black; padding: 60px 0; }
+              <br /><br />
+              footer .redes-sociales .contenedor { display: flex;
+              justify-content: center; }
+              <br /><br />
+              footer .redes-sociales .contenedor a { color: #fff; text-align:
+              center; width: 100px; font-size: 30px; padding: 15px 0; display:
+              block; margin: 0 20px; border-radius: 3px; }
+              <br /><br />
+              footer .redes-sociales .contenedor .twitter:hover { background:
+              #55acee; }
+              <br /><br />
+              footer .redes-sociales .contenedor .facebook:hover { background:
+              #3b5998; }<br /><br />
+              footer .redes-sociales .contenedor .youtube:hover { background:
+              #cd201f; }<br /><br />
+              footer .redes-sociales .contenedor .github:hover { background:
+              #666666; }<br /><br />
+              footer .redes-sociales .contenedor .instagram:hover { background:
+              #3f729b; }<br /><br />
+
+              @media screen and (max-width: 800px) { header .menu { text-align:
+              center; }
+              <br /><br />
+              .main .trabajos .contenedor-trabajos .trabajo { width: 46%; } }
+              <br /><br />
+              @media screen and (max-width: 500px) { header .contenedor-texto
+              .texto .nombre { font-size: 35px; }
+              <br /><br />
+              header .contenedor-texto .texto .profesion { font-size: 18px; }
+              <br /><br />
+
+              footer .redes-sociales .contenedor { flex-wrap: wrap; }
+              <br /><br />
+              footer .redes-sociales .contenedor a { padding: 20px; } }<br /><br />
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <section class="redes-sociales">
+        <div class="contenedor">
+          <a class="twitter" href="http://www.twitter.com/"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a
+            class="facebook"
+            href="https://www.facebook.com/javier.dominguezdequero"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a class="youtube" href="http://www.youtube.com/"
+            ><i class="fa fa-youtube-play"></i
+          ></a>
+          <a class="github" href="http://www.github.com/JaDom17"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a class="instagram" href="http://www.instagram.com/javidd17_"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </div>
+      </section>
+      <section class="redes-sociales">
+        <div class="contenedor">
+          <p style="color: #f2f2f2">
+            Sitio web creado por Javier Domínguez - Todos los derechos
+            reservados
+          </p>
+        </div>
+        <br>
+        <input type="text" readonly id="visitas" style="margin-left: 45%; color: black;">
+      </section>
+    </footer>
+    <script type="text/javascript">
+        function popUp(URL) {
+            window.open(URL, 'Nombre de la ventana', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=300,height=200,left = 390,top = 50');
+        }
+        </script>
+        <script type="text/javascript">
+          function popUp(URL) {
+              window.open(URL, 'Nombre de la ventana', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=300,height=200,left = 390,top = 50');
+          }
+          </script>
+          <script src="contador.js" language="javascript" type="text/javascript"></script>
+          <script src="background.js" language="javascript" type="text/javascript"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

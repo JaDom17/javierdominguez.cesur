@@ -10,26 +10,33 @@
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/menu-lateral.css" />
 	<link rel="icon" type="image/png" sizes="32x32" href="mmed/favicon-32x32.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
 		<div class="contenedor">
-			<nav class="menu">
-				<a href="index.html">Sobre mí</a>
-          <a href="trabajos.html">Trabajos</a>
-          <a href="contacto.html">Contacto</a>
-          <a href="contacto.html">Hoja de Estilos</a>
-          <a href="contacto.html">Perfil</a>
-			</nav>
-			
-			<div class="contenedor-texto">
-				<div class="texto">
-					<h1 class="nombre">JAVIER DOMINGUEZ</h1>
-					<h2 class="profesion">Desarrollador Web</h2>
-				</div>
+		  <nav class="menu">
+			<img
+			  src="mmed/JDDlogo.png"
+			  alt="JDDiseños"
+			  width="60px"
+			  height="60px"
+			/>
+			<a href="index.html">Sobre mí</a>
+			<a href="trabajos.html">Trabajos</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="hojaestilos.html">Hoja de Estilos</a>
+			<a href="perfil.html">Perfil</a>
+		  </nav>
+  
+		  <div class="contenedor-texto">
+			<div class="texto">
+			  <h1 class="nombre">JAVIER DOMINGUEZ</h1>
+			  <h2 class="profesion">Desarrollador Web</h2>
 			</div>
+		  </div>
 		</div>
-	</header>
+	  </header>
    <section class="main">
 	<nav class="main-menu">
 		<ul>
@@ -52,13 +59,13 @@
 			</a>
 		  </li>
 		  <li class="has-subnav">
-			<a href="#">
+			<a href="hojaestilos.html">
 			  <i class="fa fa-folder-open fa-2x"></i>
 			  <span class="nav-text"> Hoja de Estilos </span>
 			</a>
 		  </li>
 		  <li>
-			<a href="#">
+			<a href="perfil.html">
 			  <i class="fa fa-bar-chart-o fa-2x"></i>
 			  <span class="nav-text"> Perfil </span>
 			</a>
@@ -84,11 +91,21 @@
 			
 		<section class="redes-sociales">
 			<div class="contenedor">
-				<a class="twitter" href="http://www.twitter.com/falconmasters"><i class="fa fa-twitter"></i></a>
-				<a class="facebook" href="http://www.facebook.com/falconmasters"><i class="fa fa-facebook"></i></a>
-				<a class="youtube" href="http://www.youtube.com/falconmasters"><i class="fa fa-youtube-play"></i></a>
-				<a class="github" href="http://www.github.com/falconmasters"><i class="fa fa-github"></i></a>
-				<a class="instagram" href="http://www.instagram.com/falconmasters"><i class="fa fa-instagram"></i></a>
+				<a class="twitter" href="http://www.twitter.com/"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a class="facebook" href="https://www.facebook.com/javier.dominguezdequero"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a class="youtube" href="http://www.youtube.com/"
+            ><i class="fa fa-youtube-play"></i
+          ></a>
+          <a class="github" href="http://www.github.com/JaDom17"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a class="instagram" href="http://www.instagram.com/javidd17_"
+            ><i class="fa fa-instagram"></i
+          ></a>
 			</div>
 		</section>
 		<section class="redes-sociales">
@@ -96,7 +113,22 @@
 				<p style="color: #f2f2f2;">Sitio web creado por Javier Domínguez - Todos los derechos reservados</p>
 			</div>
 		</section>
+		<label>Numero de visitas</label>
+		<input id="visitas" type="text" readonly>
 	</footer>
+	<script type="text/javascript">
+		function popUp(URL) {
+			window.open(URL, 'Nombre de la ventana', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=300,height=200,left = 390,top = 50');
+		}
+		</script>
+		<script type="text/javascript">
+		  function popUp(URL) {
+			  window.open(URL, 'Nombre de la ventana', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=300,height=200,left = 390,top = 50');
+		  }
+		  </script>
+		  <script src="contador.js" language="javascript" type="text/javascript"></script>
+		  <script src="background.js" language="javascript" type="text/javascript"></script>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
 
